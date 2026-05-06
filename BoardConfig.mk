@@ -31,3 +31,4 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
 include vendor/oneplus/kebab/BoardConfigVendor.mk
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
