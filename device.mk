@@ -47,9 +47,9 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
-£
+#
 PRODUCT_SYSTEM_PROPERTIES += \
-    ro.lunaris.maintainer=Snake | 集める
+    ro.lunaris.maintainer=Snake
 
 # Touch
 $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(LOCAL_PATH)/touch/include)
