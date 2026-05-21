@@ -49,14 +49,15 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Mistify
-ro.mist.display=1080 x 2400, 120 hz
-ro.mist.battery=4500mah
-ro.mist.soc=Snapdragon® 865
-ro.mist.camera=48MP + 16MP + 5MP + 2MP
-ro.mist.front=16MP
-ro.mist.platform=SM8250
-ro.mist.screen=6.55' Fluid Amoled
-ro.mist.device.name=OnePlus 8T
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.mist.display=1080 x 2400, 120 hz
+    ro.mist.battery=4500mah
+    ro.mist.soc=Snapdragon® 865
+    ro.mist.camera=48MP + 16MP + 5MP + 2MP
+    ro.mist.front=16MP
+    ro.mist.platform=SM8250
+    ro.mist.screen=6.55' Fluid Amoled
+    ro.mist.device.name=OnePlus 8T
 
 # Set maintainer
 MISTOS_MAINTAINER := "Rahul Singh"
