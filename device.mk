@@ -58,7 +58,7 @@ TARGET_CUSTOM_UDFPS := true
 WITH_GMS := true
 
 #Stock dailer
-TARGET_SUPPORTS_GOOGLE_TELEPHONY := false
+TARGET_SUPPORTS_GOOGLE_TELEPHONY := true
 
 # Touch
 $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(LOCAL_PATH)/touch/include)
