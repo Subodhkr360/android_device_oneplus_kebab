@@ -49,7 +49,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 #
 PRODUCT_SYSTEM_PROPERTIES += \
-    ro.lunaris.maintainer=Rahul Singh
+    ro.lunaris.maintainer=Rahul_Singh
 
 #Set udfp
 TARGET_CUSTOM_UDFPS := true
