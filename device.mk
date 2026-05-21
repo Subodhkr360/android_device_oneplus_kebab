@@ -47,6 +47,18 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+#
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.lunaris.maintainer=Rahul Singh
+
+#Set udfp
+TARGET_CUSTOM_UDFPS := true
+
+#GSM Flag
+WITH_GMS := true
+
+#Stock dailer
+TARGET_SUPPORTS_GOOGLE_TELEPHONY := false
 
 # Touch
 $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(LOCAL_PATH)/touch/include)
